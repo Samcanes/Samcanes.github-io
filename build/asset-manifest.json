@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2fc3ab5f.chunk.css",
+    "main.js": "/static/js/main.86244aff.chunk.js",
+    "main.js.map": "/static/js/main.86244aff.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.26096b02.js",
+    "runtime-main.js.map": "/static/js/runtime-main.26096b02.js.map",
+    "static/css/2.383c0125.chunk.css": "/static/css/2.383c0125.chunk.css",
+    "static/js/2.123fc8ac.chunk.js": "/static/js/2.123fc8ac.chunk.js",
+    "static/js/2.123fc8ac.chunk.js.map": "/static/js/2.123fc8ac.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.383c0125.chunk.css.map": "/static/css/2.383c0125.chunk.css.map",
+    "static/css/main.2fc3ab5f.chunk.css.map": "/static/css/main.2fc3ab5f.chunk.css.map",
+    "static/js/2.123fc8ac.chunk.js.LICENSE.txt": "/static/js/2.123fc8ac.chunk.js.LICENSE.txt",
+    "static/media/Irtesam-Virani.385858d7.pdf": "/static/media/Irtesam-Virani.385858d7.pdf",
+    "static/media/avatar.b64e4abe.png": "/static/media/avatar.b64e4abe.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.26096b02.js",
+    "static/css/2.383c0125.chunk.css",
+    "static/js/2.123fc8ac.chunk.js",
+    "static/css/main.2fc3ab5f.chunk.css",
+    "static/js/main.86244aff.chunk.js"
+  ]
+}
