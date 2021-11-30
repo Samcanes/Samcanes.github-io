@@ -2,4 +2,50 @@
     border: 0px;
     background-color: transparent;
     border: 1px solid white;
+    margin-top: 80px;
+}
+
+#card-con {
+    padding: 8px;
+    margin-top: 0px;
+}
+
+.card-body {
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.card-iframe {
+    visibility: hidden;
+}
+
+.p-2 {
+    /* padding: 0px; */
+}
+
+@media screen and (max-device-width: 480px) {
+    #card {
+        padding: 0px;
+        margin-top: 0px;
+        border: 0px;
+        background-color: transparent;
+        border: 1px solid white;
+    }
+    i {
+        padding: 0px;
+    }
+    .p-2 {
+        padding: 0px !important
+    }
+    .card-body {
+        padding: 0px;
+        margin-top: 0px;
+    }
+    #card-con {
+        padding: 0px;
+        margin-top: 0px;
+    }
+    .card-iframe {
+        visibility: collapse;
+    }
 }

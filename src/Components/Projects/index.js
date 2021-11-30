@@ -42,22 +42,21 @@ export default function Projects() {
     for (let each of projectData) {
       console.log(each);
       projectCardsJSX.push(
-        <div className="p-2 bd-highlight">
+        <div id="card-con" className="p-2 bd-highlight">
           <div id="card" class="card">
-            <iframe className="card-iframe" src={each.liveLink}></iframe>
             <div class="card-body">
               <p class="card-heading">{each.name}</p>
               <p class="card-text">{each.description} </p>
               <div className="d-flex justify-content-around">
-                <div class="p-2 flex-fill bd-highlight">
+                <div class="p-0.5 flex-fill bd-highlight">
                   <a href={each.gitLink}>
                     <i class="bi bi-github"></i>
                   </a>
                 </div>
-                <div class="p-2 flex-fill bd-highlight">
+                <div class="p-0.5 flex-fill bd-highlight">
                   {/* <i class="bi bi-bootstrap-fill"></i> */}
                 </div>
-                <div class="p-2 flex-fill bd-highlight">
+                <div class="p-0.5 flex-fill bd-highlight">
                   <a href={each.liveLink}>
                     <i class="bi bi-box-arrow-in-up-right"></i>
                   </a>

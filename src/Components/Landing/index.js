@@ -11,7 +11,10 @@ export default function Landing() {
         <Row>
           <Col>
             <div className="name-font">
-              <h1 id="name">Irtesam Virani</h1>
+              <h2 id="name">Irtesam Virani</h2>
+              <br className="card-iframe" />
+              <br className="card-iframe" />
+
               <div class="row">
                 <div id="para">
                   <p>

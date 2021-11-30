@@ -20,3 +20,36 @@
     margin-left: 30px;
     font-size: 22px;
 }
+
+
+/* #### Mobile Phones Portrait #### */
+
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+    .center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* text-align: center; */
+    }
+    .name-font {
+        margin-top: 30px;
+        margin-left: 0px;
+        margin-right: 30px;
+        font-weight: 100;
+        font-family: 'VT323', monospace;
+    }
+    #name {
+        font-size: 50px;
+    }
+    #para {
+        margin-left: 30px;
+        font-size: 22px;
+    }
+}
+
+
+/* #### Mobile Phones Landscape #### */
+
+@media screen and (max-device-width: 640px) and (orientation: landscape) {
+    /* some CSS here */
+}

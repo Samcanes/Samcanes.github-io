@@ -22,19 +22,19 @@
     font-size: 22px;
 }
 
-
-/* .module:hover {
-    --visib: visible;
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+    .flex-container {
+        font-family: 'VT323', monospace;
+        margin-top: 10px;
+        margin-left: 10px;
+        /* position: absolute; */
+        /* border: 1px solid blue; */
+    }
+    .name {
+        font-size: 30px;
+    }
+    .module {
+        margin-left: 30px;
+        font-size: 22px;
+    }
 }
-
-.module {
-    --visib: hidden;
-}
-
-.module-sec {
-    visibility: var(--visib);
-}
-
-.module-sec:hover {
-    --visib: visible;
-} */
