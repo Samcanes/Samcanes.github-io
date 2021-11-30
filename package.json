@@ -2,7 +2,7 @@
     "name": "portfolio",
     "version": "0.1.0",
     "private": true,
-    "homepage": "http://Samcanes.github.io/",
+    "homepage": "https://samcanes.github.io/",
     "dependencies": {
         "@oberon-amsterdam/horizontal": "^1.0.5",
         "@testing-library/jest-dom": "^5.15.0",
