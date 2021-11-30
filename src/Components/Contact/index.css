@@ -1,0 +1,31 @@
+.add-urls {
+    color: yellow;
+    text-decoration: none;
+}
+
+.card {
+    width: 300px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.col {
+    margin: 1px;
+}
+
+.resume-frame {
+    height: 380px;
+}
+
+address {
+    margin-bottom: 0;
+}

@@ -1,0 +1,40 @@
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+}
+
+.flex-container {
+    font-family: 'VT323', monospace;
+    margin-top: 50px;
+    margin-left: 70px;
+    /* position: absolute; */
+    /* border: 1px solid blue; */
+}
+
+.name {
+    font-size: 50px;
+}
+
+.module {
+    margin-left: 30px;
+    font-size: 22px;
+}
+
+
+/* .module:hover {
+    --visib: visible;
+}
+
+.module {
+    --visib: hidden;
+}
+
+.module-sec {
+    visibility: var(--visib);
+}
+
+.module-sec:hover {
+    --visib: visible;
+} */
