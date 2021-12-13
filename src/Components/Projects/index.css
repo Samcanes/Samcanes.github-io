@@ -19,8 +19,8 @@
     visibility: hidden;
 }
 
-.p-2 {
-    /* padding: 0px; */
+#text-projects {
+    margin-top: 100px;
 }
 
 @media screen and (max-device-width: 480px) {
@@ -30,12 +30,6 @@
         border: 0px;
         background-color: transparent;
         border: 1px solid white;
-    }
-    i {
-        padding: 0px;
-    }
-    .p-2 {
-        padding: 0px !important
     }
     .card-body {
         padding: 0px;

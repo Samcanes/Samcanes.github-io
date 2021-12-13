@@ -82,11 +82,18 @@ export default function Projects() {
   return (
     <>
       <div>
-        <div className="d-flex flex-wrap justify-content-around bd-highlight example-parent">
+        {/* <div className="d-flex flex-wrap justify-content-around bd-highlight example-parent"> */}
           {/* {renderProjects(projectData)}
            */}
 
-           "Sorry to disappoint but working on some cool Project and certificates layout and some new projects(🙃). Will Update once i am not ashamed of my work!"
+           <div id="text-projects" className="center">
+           <p>
+           Sorry to disappoint but working on some cool layout for project and certificates and also some new projects(🙃)<br /><br /><br />Will Update once i am not ashamed of my work!"
+           </p>
+           <p>
+           
+           </p>
+           {/* </div> */}
         </div>
       </div>
     </>
