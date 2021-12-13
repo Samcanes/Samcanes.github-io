@@ -43,8 +43,16 @@ export default function Projects() {
       console.log(each);
       projectCardsJSX.push(
         <div id="card-con" className="p-2 bd-highlight">
-          <div id="card" class="card">
-            <div class="card-body">
+          <div id="card" class="card"z>
+          <div class="card-head">
+          {/* <picture>
+              <source srcset="public/images/eminent-technologies-about-us.jp2" type="image/jp2" />
+              <source srcset="public/images/eminent-technologies-about-us.webp" type="image/webp" />
+              <source srcset="public/images/eminent-technologies-about-us.jpg" type="image/jpg" />
+              <img src="public/images/eminent-technologies-about-us.webp" alt="" loading="lazy" />
+            </picture> */}
+          </div>
+          <div class="card-body">
               <p class="card-heading">{each.name}</p>
               <p class="card-text">{each.description} </p>
               <div className="d-flex justify-content-around">
@@ -69,14 +77,19 @@ export default function Projects() {
     }
     return projectCardsJSX;
   };
+  
 
   return (
     <>
       <div>
         <div className="d-flex flex-wrap justify-content-around bd-highlight example-parent">
-          {renderProjects(projectData)}
+          {/* {renderProjects(projectData)}
+           */}
+
+           "Sorry to disappoint but working on some cool Project and certificates layout and some new projects(🙃). Will Update once i am not ashamed of my work!"
         </div>
       </div>
     </>
   );
 }
+

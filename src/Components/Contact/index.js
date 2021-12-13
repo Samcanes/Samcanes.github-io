@@ -11,8 +11,16 @@ export default function Contacts() {
           <Row>
             <p>Resume:</p>
           </Row>
-          <Row>
-            <iframe className="resume-frame" src={Resume}></iframe>
+          <Row className="frame-parent">
+            <iframe className="resume-frame" 
+            src={Resume}
+             frameborder="0"
+             seamless="seamless"
+              scroll="no"
+               border="0"
+               style={{overflow: "hidden"}}
+               cellspacing="0"
+        ></iframe>
           </Row>
           <br />
           <Row>
@@ -28,6 +36,7 @@ export default function Contacts() {
                 <Col>
                   <div class="form-group">
                     <input
+                     id="glowing-border"
                       class="form-control"
                       type="text"
                       name="name"
@@ -38,6 +47,7 @@ export default function Contacts() {
                 <Col>
                   <div class="form-group">
                     <input
+                    id="glowing-border"
                       class="form-control"
                       type="email"
                       name="replyto"
@@ -46,10 +56,11 @@ export default function Contacts() {
                   </div>
                 </Col>
               </Row>
-
+<br />
               <Row>
                 <Col>
                   <input
+                  id="glowing-border"
                     class="form-control"
                     type="text"
                     name="message"
@@ -57,9 +68,10 @@ export default function Contacts() {
                   />
                 </Col>
               </Row>
-
+<br />
               <div className="center">
-                <button type="submit" class="btn btn-primary">
+                {/* class="btn btn-primary" */}
+                <button type="submit">
                   Submit
                 </button>
               </div>

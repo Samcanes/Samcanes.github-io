@@ -11,6 +11,7 @@ export default function Avatar() {
         <Row className="center">
           <Col className="vertical-center">
             <img id="avtar-img" src={avatar} alt="avatar pic" />
+            {/* <i class="bi bi-box-arrow-in-up-right"></i> */}
           </Col>
         </Row>
       </div>

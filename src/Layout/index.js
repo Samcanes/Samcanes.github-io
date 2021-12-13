@@ -8,7 +8,7 @@ import Header from "./Comonents/Headers";
 import Landing from "./../Components/Landing";
 import Avatar from "../Components/Avatar";
 import Academics from "../Components/Academics";
-import Projects from "../Components/Projects";
+import Projects, { ProjectsA } from "../Components/Projects";
 import Certificates from "../Components/Certificates";
 import Contacts from "../Components/Contact";
 export default function Layout() {
@@ -18,7 +18,7 @@ export default function Layout() {
 
   return (
     <>
-      <Header></Header>
+      {/* <Header></Header> */}
       <Container className="layout-class" fluid>
         <div
           className="fillBox"
@@ -33,13 +33,17 @@ export default function Layout() {
             <Avatar></Avatar>
           </div>
 
-          <div className="block" id="academic">
+          {/* <div className="block" id="academic">
             <Academics></Academics>
-          </div>
+          </div> */}
 
           <div className="block" id="project">
             <Projects></Projects>
           </div>
+
+          {/* <div className="block" id="project">
+            <ProjectsA></ProjectsA>
+          </div> */}
 
           {/* <div className="block" id="project">
             <Certificates></Certificates>

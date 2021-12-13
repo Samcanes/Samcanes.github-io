@@ -22,10 +22,51 @@ a {
     margin: 1px;
 }
 
+.frame-parent {
+    overflow: hidden;
+}
+
 .resume-frame {
     height: 380px;
+    overflow-y: scroll;
 }
 
 address {
     margin-bottom: 0;
+}
+
+#glowing-border {
+    border: 0px;
+    border-bottom: 2px solid #008000;
+    border-radius: 7px;
+    color: aliceblue;
+    background-color: transparent;
+}
+
+#glowing-border:focus {
+    outline: none;
+    border-color: #39ff14;
+    background-color: transparent;
+    box-shadow: 0 0 10px #39ff14;
+}
+
+button {
+    padding: 1px 2px;
+    background-color: transparent;
+    color: antiquewhite;
+    /* border-radius: 2em; */
+    letter-spacing: 0.1px;
+    /* text-transform: uppercase; */
+    text-decoration: none;
+    font-size: 1.2em;
+    overflow: hidden;
+}
+
+
+/*creating animation effect*/
+
+button:hover {
+    color: #111;
+    background: #39ff14;
+    box-shadow: 0 0 50px #39ff14;
 }
